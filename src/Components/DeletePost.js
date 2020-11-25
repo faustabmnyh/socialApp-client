@@ -15,6 +15,7 @@ import { useState } from "react";
 import { DELETE_COMMENT, DELETE_POST, FETCH_POSTS } from "../queries";
 import Draggable from "react-draggable";
 
+
 function PaperComponent(props) {
   return (
     <Draggable
