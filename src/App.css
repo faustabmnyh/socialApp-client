@@ -1,0 +1,109 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.card__link {
+  text-decoration: none;
+  cursor: pointer;
+  color: gray;
+}
+
+.appBars__link {
+  color: white;
+  text-decoration: none;
+  font-weight: 400;
+}
+
+.btn_3 {
+  margin-left: 20px;
+}
+.btn_2 {
+  margin-top: 7px;
+}
+
+.home__title {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-top: 20px;
+  font-size: 30px;
+  font-family: "Montserrat", arial;
+}
+
+.register__form {
+  display: flex;
+  flex-direction: column;
+}
+
+.register__btn {
+  width: 200px;
+  margin: 20px 0 !important;
+}
+
+.register__title,
+.login__title {
+  margin: 20px 0;
+  font-size: 30px;
+  font-family: "Montserrat", arial;
+}
+
+.postForm {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.postForm__title {
+  font-family: "Montserrat", arial;
+  margin-bottom: 20px;
+}
+
+.postForm__form {
+  width: 300px;
+}
+
+.postForm__btn {
+  width: 120px;
+  margin: 10px 0 !important;
+}
+
+.singlePost {
+  display: flex;
+  flex-direction: column;
+}
+
+.singlePost__user {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+}
+
+.singlePost__commentCard {
+  margin: 10px 0;
+}
+
+.singlePost__createComment {
+  margin-top: 20px;
+  padding: 20px;
+}
+
+.singlePost__createComment p {
+  font-size: 20px;
+  font-family: arial;
+  margin-bottom: 10px;
+}
+
+.singlePost__createForm {
+  display: flex;
+  flex-direction: column;
+}
+
+.singlePost__input {
+  width: 100%;
+}
+
+.singlePost__btn {
+  margin-top: 5px !important;
+  width: 120px;
+}
