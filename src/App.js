@@ -18,7 +18,7 @@ import { AuthProvider } from "./context/auth";
 import AuthRoute from "./utils/authRoute";
 
 const httpLink = createHttpLink({
-  uri: "http://localhost:4000/",
+  uri: "https://pure-eyrie-42141.herokuapp.com/",
 });
 
 // this is setContext , kind a works like middleware so it accept context of this request and kind a modifier what i wanna like do before that request has proces forwaded toward http links
